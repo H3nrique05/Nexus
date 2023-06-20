@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(212, 214, 240);
+}
+
+.container{
+    display: flex;
+    color: black;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.cabeca{
+    margin-top: initial;
+    height: 340px;
+    display: flex;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    text-align: center;
+    background-color: rgb(233, 233, 235);
+    justify-content: right;
+
+}
+
+.cab{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+   /* background-color: transparent;*/
+    padding-right: 4%;
+    color: black;
+    font-size: larger;
+}
+
+.cabfrase{
+    border-radius: 10px;
+    /*background-color: rgb(136, 137, 207);*/
+    justify-items: end;
+    align-items: end;
+}
+
+.cabfrase:hover{
+    background-color: aqua;
+    color: blue;
+
+}
+
+.imagemcabeca{
+    display: auto;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+.cont{
+    margin-top: auto;
+    height: 70px;
+    display: flex;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    width: 100%;
+  /*  background-color: rgb(196, 196, 245);*/
+    background-color: transparent;
+    justify-content: space-evenly;
+    font-size: xx-large;
+    text-align: center;
+    align-items: center;
+    
+}/*Space-Evenly é para dividir o espaçamento entre as opções*/
+.ini{
+    background-color: transparent;
+    color: black;
+}
+
+
+.Contato{
+    background-color: transparent;
+    color: black;
+}
+
+.Reparos{
+  background-color: transparent;
+  color: black;
+}
+/*
+
+.frasecont{
+    margin-top: auto;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    background: transparent;
+    text-align: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 30px;
+}*/
+
+.cont2{
+    /*margin-top: auto;*/
+    height: 450px;
+    display: flex;
+    flex-direction: initial;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+    justify-content: center;
+}
+
+.frasecont2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    /*
+    margin-top: auto;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    background: transparent;
+    text-align: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 30px;*/
+}
+
+
+.frasecont3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    text-align: center;     
+    color: black;
+    align-items: start;
+    background-color: transparent;
+ /*   
+    text-align: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    /*margin-top: auto;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    background: transparent;
+    text-align: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 30px;*/
+}
+
+.imagemcont{
+    width: 370px;
+    height: auto;
+    align-self: flex-end;
+    justify-content: flex-end;
+
+}
+
+.footer{
+    margin-top: auto;
+    height: 120px;
+    display: flex;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+  
+}
+
+.footerIma{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 30px;
+    background-color: black;
+}
+
+.imagemrodape{
+    width: 100px;
+    height: auto;
+    align-self: flex-start;
+    justify-content: flex-start;
+    margin-right: 30px;
+}
+
+.orcament{
+    margin-top: initial;
+    height: 85px;
+    display: flex;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    text-align: center;
+    /*background-color: rgb(196, 196, 245);*/
+    box-sizing: content-box;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.whats{
+    height: 45px;
+    display: flex;
+    background-color: #25D366;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    justify-items: flex-start;
+  }
+
+  .carrosel {
+    width: 100%;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .car {
+    display: flex;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .slide {
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+  }
+  
+.slide img {
+    width: 100%;
+    height: auto;
+}
+
+.reparo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+.imgreparo {
+    width: 100%;
+    height: auto;
+}
+
+
+
