@@ -324,6 +324,18 @@
         align-items: start;
         background-color: transparent;
     }
-
+    .imagemcabeca{
+        display:none;
+    }
+    .cabeca{
+        display: flex;
+        height: 120px;
+        justify-content: initial;
+        text-align: start;
+    }
+    .cabfrase{
+        text-align: end;
+        
+    }
 }
 
